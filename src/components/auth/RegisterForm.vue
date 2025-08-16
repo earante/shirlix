@@ -32,7 +32,7 @@ const showConfirmPassword = ref(false)
     <v-divider class="my-5"></v-divider>
     <h4 class="text-center">
       Already have account?
-      <RouterLink class="text-primary" to="/">Click here to Login.</RouterLink>
+      <RouterLink class="text-primary font-weight-black" to="/">Click here to Login.</RouterLink>
     </h4>
   </v-form>
 </template>

@@ -27,7 +27,9 @@ const showPassword = ref(false)
     <v-divider class="my-5"></v-divider>
     <h4 class="text-center">
       Don't have account?
-      <RouterLink class="text-primary" to="/register">Click here to Register.</RouterLink>
+      <RouterLink class="text-primary font-weight-black" to="/register"
+        >Click here to Register.</RouterLink
+      >
     </h4>
   </v-form>
 </template>
