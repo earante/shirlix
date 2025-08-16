@@ -9,7 +9,7 @@ function onClick() {
 </script>
 
 <template>
-  <v-responsive class="border rounded">
+  <v-responsive>
     <v-app :theme="theme">
       <v-app-bar
         :color="theme === 'light' ? 'grey-lighten-1' : 'grey-darken-3'"
@@ -34,7 +34,7 @@ function onClick() {
 
       <v-footer
         :color="theme === 'light' ? 'grey-lighten-1' : 'grey-darken-3'"
-        class="px-3"
+        class="px-3 font-weight-bold"
         border
         app
         >2025 - Shirlix Meatshop</v-footer
